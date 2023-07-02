@@ -18,7 +18,6 @@ k9s \
 kind \
 kubernetes-cli \
 mkcert \
-python@3.11 \
 wget \
 zsh
 ```
@@ -33,7 +32,6 @@ xargs brew install < configs/list-brew.txt
 brew install --cask \
 arc \
 ccleaner \
-discord \
 google-chrome \
 google-drive \
 hiddenbar \
