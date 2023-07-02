@@ -9,10 +9,49 @@
 ### formulaes
 
 ```bash
+brew install \
+docker \
+docker-compose \
+git \
+jq \
+k9s \
+kind \
+kubernetes-cli \
+mkcert \
+python@3.11 \
+wget \
+zsh
+```
+
+```bash
 xargs brew install < configs/list-brew.txt
 ```
 
 ### --cask formulaes
+
+```bash
+brew install --cask \
+arc \
+ccleaner \
+discord \
+google-chrome \
+google-drive \
+hiddenbar \
+iterm2 \
+languagetool \
+megasync \
+monitorcontrol \
+mos \
+obsidian \
+raycast \
+selfcontrol \
+shottr \
+signal \
+spotify \
+stats \
+visual-studio-code \
+zoom
+```
 
 ```bash
 xargs brew install --cask < configs/list-brew-cask.txt
